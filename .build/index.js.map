@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../index.ts"],
+  "sourcesContent": ["const username: string = \"frank\";\nconst sum = (a: number, b: number) => {\n    return a + b;\n}\nsum(12, 12);\n\n\nclass Person {\n    private age: number;\n    lastName: string;\n\n    constructor(age: number, lastName: string) {\n        this.age = age;\n        this.lastName = lastName;\n    }\n\n}\n\nconst nico = new Person(18, \"juan\");\n\nconsole.log(nico.age)"],
+  "mappings": "AAAA,MAAM,WAAmB;AACzB,MAAM,MAAM,CAAC,GAAW,MAAc;AAClC,SAAO,IAAI;AAAA;AAEf,IAAI,IAAI;AAGR,aAAa;AAAA,EACD;AAAA,EACR;AAAA,EAEA,YAAY,KAAa,UAAkB;AACvC,SAAK,MAAM;AACX,SAAK,WAAW;AAAA;AAAA;AAKxB,MAAM,OAAO,IAAI,OAAO,IAAI;AAE5B,QAAQ,IAAI,KAAK;",
+  "names": []
+}
